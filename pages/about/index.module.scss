@@ -92,6 +92,11 @@ $about_height: 400px;
          grid-row-start: 3;
          grid-column-start: 1;
       }
+      a {
+         // font-weight: 500;
+         color: $links;
+         // text-decoration: underline;
+      }
    }
 
    .item1 {

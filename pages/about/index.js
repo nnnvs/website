@@ -68,18 +68,23 @@ const About = () => {
                   <div className={styles['about-col']}>
                      <div className={styles.title}>Interests</div>
                      <div>
+                        <div className={styles.item}>Natural Language Processing</div>
                         <div className={styles.item}>
                            Vision
                         </div>
                         <div className={styles.item}>
                            Machine Learning DevOps
                         </div>
-                        <div className={styles.item}>Natural Language Processing</div>
                      </div>
                   </div>
 
                   <div className={styles['about-col']}>
-                     <div className={styles.title}>Patents</div>
+                     <div className={styles.title}>
+                           {' '}
+                           <a href="https://patents.google.com/?inventor=Nikhil+Vinay+Sharma">
+                              Patents
+                           </a>{' '}
+                     </div>
                      <div>
                         <div className={styles.item}>
                            {' '}
@@ -88,7 +93,10 @@ const About = () => {
                            </a>{' '}
                         </div>
                         <div className={styles.item}>
-                           Inquisitive approach to find the last mile path using Audio and GPS Probe data using Machine Learning, Feb 2020, US 16/803302
+                           {' '}
+                           <a href="https://patents.google.com/patent/US20210270629A1/">
+                              Inquisitive approach to find the last mile path using Audio and GPS Probe data using Machine Learning, Feb 2020, US20210270629A1
+                           </a>{' '}
                         </div>
                      </div>
                   </div>

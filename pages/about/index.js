@@ -73,7 +73,7 @@ const About = () => {
                            Vision
                         </div>
                         <div className={styles.item}>
-                           Machine Learning DevOps
+                           MLOps
                         </div>
                      </div>
                   </div>

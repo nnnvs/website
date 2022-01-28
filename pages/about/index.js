@@ -23,13 +23,15 @@ const About = () => {
 
                <div className={styles['item2']}>
                   <div className={styles.lead}>
-                     👋 I'm Nikhil.<br />
-                     I am a masters student in Computer Science at {''}
-                     <a href="https://cims.nyu.edu/">
-                        NYU Courant
-                     </a>{''}.
+                     👋 I'm Nikhil.
                   </div>
                   <div className={styles.info}>
+                     <div>
+                     I am a Masters student in Computer Science at the {''}
+                     <a href="https://cims.nyu.edu/">
+                        NYU Courant Institute of Mathematical Sciences
+                     </a>{''}.
+                     </div>
                      <div>
                         Previously, I worked as a Senior Software Engineer at {''}
                         <a href="https://www.joveo.com/">
@@ -53,7 +55,9 @@ const About = () => {
                         </a>{''}.
                      </div>
                      <div>
-                        I enjoy reading,  <Link href={`gallery`}>
+                        I enjoy <Link href={`bookshelf`}>
+                           <a>reading</a>
+                        </Link>,  <Link href={`gallery`}>
                            <a>photography</a>
                         </Link>, running and video gaming.
                      </div>

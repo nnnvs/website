@@ -1,5 +1,6 @@
 
 import { config as computerVisionFundamentals } from '../pages/notes/computer-vision-fundamentals';
+import { config as helpfulLinksForMsStem } from '../pages/notes/helpful-links-for-ms-stem-applicants';
 import vanGogh from './van-gogh-smol.jpeg';
 
 const writing = [
@@ -16,7 +17,8 @@ const writing = [
    featured: true,
    img: vanGogh
 },
-   computerVisionFundamentals
+   computerVisionFundamentals,
+   helpfulLinksForMsStem,
 ];
 
 export default writing;

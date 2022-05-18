@@ -9,7 +9,7 @@ const writing = [
 {
    title: 'Performance Prediction of Multi-threaded Applications',
    description:
-      'This post analyses an efficient learning based approach to estimate application performance with varying degrees of parallelism for a specific hardware.',
+      'We analyse an efficient learning based approach to estimate application performance with varying degrees of parallelism for a specific hardware.',
    date: '05/17/2022',
    external: true,
    url: 'https://nikhilvinaysharma.medium.com/performance-prediction-of-multi-threaded-applications-c2c98c7f43f8',

@@ -72,9 +72,9 @@ const About = () => {
                   <div className={styles['about-col']}>
                      <div className={styles.title}>Interests</div>
                      <div>
-                        {/* <div className={styles.item}>Natural Language Processing</div> */}
+                        <div className={styles.item}>Natural Language Processing</div>
                         <div className={styles.item}>
-                           Computer Vision
+                           Vision
                         </div>
                         <div className={styles.item}>
                            MLOps

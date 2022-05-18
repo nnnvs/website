@@ -3,12 +3,10 @@ import '../components/Socials/Socials.scss';
 import '../styles/atom-one-light.css';
 import Head from 'next/head';
 import '../styles/app.scss';
-import {useRouter} from "next/router";
 
 import Navigation from '../components/Navigation/Navigation';
 import Footer from '../components/Footer/Footer';
 export default function App({ Component, pageProps }) {
-   const router = useRouter();
    return (
       <>
          <Head>
@@ -22,10 +20,8 @@ export default function App({ Component, pageProps }) {
          <div className="app">
             <Navigation />
             <Component {...pageProps} />
-            
-            {/* added to remove footer from gallery */}
-            {router.pathname !== '/gallery' && <Footer /> }
-            {/* <Footer /> */}
+
+            <Footer />
          </div>
       </>
    );

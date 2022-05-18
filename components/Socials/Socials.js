@@ -46,13 +46,13 @@ const Socials = ({ margin }) => {
          >
             <i className="fa fa-instagram" aria-hidden="true" />
          </a>
-         {/* <a
+         <a
             aria-label="Behance"
             href="http://behance.net/envy_designs"
             className="icon"
          >
             <i className="fa fa-behance" aria-hidden="true" />
-         </a> */}
+         </a>
       </div>
    );
 };

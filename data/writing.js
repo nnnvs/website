@@ -2,9 +2,22 @@
 import { config as computerVisionFundamentals } from '../pages/notes/computer-vision-fundamentals';
 import { config as helpfulLinksForMsStem } from '../pages/notes/helpful-links-for-ms-stem-applicants';
 import vanGogh from './van-gogh-smol.jpeg';
+import multithreading from './image-blog-multithreading.webp';
 
 const writing = [
 //   add new one on top of the list
+{
+   title: 'Performance Prediction of Multi-threaded Applications',
+   description:
+      'We analyse an efficient learning based approach to estimate application performance with varying degrees of parallelism for a specific hardware.',
+   date: '05/17/2022',
+   external: true,
+   url: 'https://nikhilvinaysharma.medium.com/performance-prediction-of-multi-threaded-applications-c2c98c7f43f8',
+   categories: ['Performance Prediction'],
+   link_text: 'medium',
+   featured: true,
+   img: multithreading
+},
 {
    title: 'Analyzing Neural Style Transfer using Deep Learning',
    description:

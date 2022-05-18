@@ -7,6 +7,7 @@ import Button from '../../components/Button/Button';
 import HeaderBanner from '../../components/HeaderBanner/HeaderBanner';
 import { NextSeo } from 'next-seo';
 import styles from './Post.module.scss';
+import Disqus from "disqus-react"
 const Post = ({ config, children }) => {
    const post = config;
    const date = new Date(post.date);
@@ -16,6 +17,14 @@ const Post = ({ config, children }) => {
       monthNames[date.getMonth()] +
       ' ' +
       date.getFullYear();
+
+
+      const disqusShortname = "nikhilvs"
+      const disqusConfig = {
+         url: "http://localhost:3000",
+         identifier: post.slug,
+         title: post.title
+      }
    return (
       <>
          <NextSeo title={post.title} description="A blog post" />
@@ -39,8 +48,13 @@ const Post = ({ config, children }) => {
             <div>
                <div className={styles.lead}>{post.title}</div>
                {children}
+               <Disqus.DiscussionEmbed
+                  shortname={disqusShortname}
+                  config={disqusConfig}
+               />
             </div>
          </Container>
+         
       </>
    );
 };

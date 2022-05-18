@@ -16,6 +16,7 @@ const writing = [
    categories: ['Performance Prediction'],
    link_text: 'medium',
    featured: true,
+   slug: 'performance-prediction',
    img: multithreading
 },
 {
@@ -28,6 +29,7 @@ const writing = [
    categories: ['Deep Learning', 'Computer Vision','Papers'],
    link_text: 'medium',
    featured: true,
+   slug: 'style-transfer',
    img: vanGogh
 },
    computerVisionFundamentals,

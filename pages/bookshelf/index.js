@@ -7,9 +7,9 @@ export const config = {
    date: '1/28/2022',
    external: false,
    url: 'http://nikhilvs.com/bookshelf/',
-   categories: ['Code', 'Computer Vision','Image Processing'],
+   categories: ['Books'],
    link_text: 'blog',
-   slug: 'computer-vision-fundamentals',
+   slug: 'bookshelf',
    featured: true
 };
 

@@ -21,7 +21,6 @@ const Bookshelf = () => {
             ** means recommended.
          </p>
          <h3>2022</h3>
-         <h4>January</h4>
          <ul>
             <li>
                Looking for Alaska by John Greene
@@ -31,6 +30,9 @@ const Bookshelf = () => {
             </li>
             <li>
                The Looming Tower by Lawrence Wright **
+            </li>
+            <li>
+               Kitchen Confidential by Anthony Bourdain
             </li>
          </ul>
          

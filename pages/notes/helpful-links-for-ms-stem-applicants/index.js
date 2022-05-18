@@ -22,18 +22,18 @@ const HelpfulLinks = () => {
                Useful links:  <a href="https://www.cs.utexas.edu/~vijay/links.htm">https://www.cs.utexas.edu/~vijay/links.htm</a>{''}
             </li>
             <li>
-            A few points on SOP: <a href="https://threadreaderapp.com/thread/933388419589459969.html">https://threadreaderapp.com/thread/933388419589459969.html</a>{''}
+            A few points on Statement of Purpose: <a href="https://threadreaderapp.com/thread/933388419589459969.html">https://threadreaderapp.com/thread/933388419589459969.html</a>{''}
             </li>
             <li>
-            Guide on LORs: <a href="https://cs.brown.edu/~sk/Memos/Grad-School-Recos/">https://cs.brown.edu/~sk/Memos/Grad-School-Recos/</a>{''}
+            Guide on Letter of Recommendations: <a href="https://cs.brown.edu/~sk/Memos/Grad-School-Recos/">https://cs.brown.edu/~sk/Memos/Grad-School-Recos/</a>{''}
             </li>
             <li>
             General Guide by Matt Might - <a href="http://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/">
                http://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/</a>{''}
             </li>
             <li>
-            Unfortunately, CGPA is a massive factor for the university adcoms. 
-            Please read this <a href="https://www.reddit.com/r/GradSchool/comments/25gj24/a_somewhat_notgentle_guide_to_getting_into_grad/">this reddit post</a>. 
+            Unfortunately, CGPA is a massive factor for the university adcoms. If your GPA is on the lower end, 
+            please read <a href="https://www.reddit.com/r/GradSchool/comments/25gj24/a_somewhat_notgentle_guide_to_getting_into_grad/">this reddit post</a>. 
             </li>
             <li>During the entire application cycle, you'll need to send cold emails to a lot of people. Oftentimes, you won't get a reply the first time.
                <a href="https://guzey.com/follow-up/"> It's your responsiblity to follow up.</a> 

@@ -34,6 +34,15 @@ const Bookshelf = () => {
             <li>
                Kitchen Confidential by Anthony Bourdain
             </li>
+            <li>
+               The Secret of the Nagas by Amish Tripathi
+            </li>
+            <li>
+               The Oath of Vayuputras by Amish Tripathi
+            </li>
+            <li>
+               The Three Body Problem by Liu Cixin
+            </li>
          </ul>
          
 

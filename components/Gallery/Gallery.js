@@ -32,7 +32,11 @@ import Gallery from 'react-grid-gallery';
 // 	        // thumbnailHeight: 212
 // 				}]
 
-const Images = [{src: require('../../data/design/Clocktower555.jpg'),
+const Images = [
+{src: require('../../data/design/star-trails.jpg'),
+thumbnail: require('../../data/design/thumbnails/star-trails-thumbnail.jpg')},    
+
+{src: require('../../data/design/Clocktower555.jpg'),
 thumbnail: require('../../data/design/thumbnails/Clocktower555.jpg')},
 
 {src: require('../../data/design/DSC_0352_edit.jpg'),

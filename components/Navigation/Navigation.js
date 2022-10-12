@@ -19,7 +19,7 @@ const Navigation = () => {
 
             {''}<a key={0}
                className={cx(styles.right)}
-               href="https://drive.google.com/file/d/15ioid4mSn87Yl0ahspNQCFJB35cH1fMH/view?usp=sharing">
+               href="https://drive.google.com/file/d/13RLsU2FhKE_qeerfjQB7j8eDBPFOskvK/view?usp=sharing">
                Resume
             </a>{''}
 

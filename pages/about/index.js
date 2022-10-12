@@ -33,8 +33,10 @@ const About = () => {
                      </a>{''}.
                      </div>
                      <div>
-                        Previously, I worked as a Senior Software Engineer at {''}
-                        <a href="https://www.joveo.com/">
+                        Previously, I've worked at {''}
+                        <a href="https://www.capitalone.com/">
+                           Capital One
+                        </a>{''}, <a href="https://www.joveo.com/">
                            Joveo
                         </a>{''} and {''}
                         <a href="https://www.here.com/">

@@ -27,33 +27,32 @@ const About = () => {
                   </div>
                   <div className={styles.info}>
                      <div>
-                     I am a Masters student in Computer Science at the {''}
+                     I'm currently working on LLMs as a Principal Data Scientist at Capital One. 
+                     Previously, I did my Master's in Computer Science at {''}
                      <a href="https://cims.nyu.edu/">
-                        NYU Courant Institute of Mathematical Sciences
+                        NYU
                      </a>{''}.
                      </div>
                      <div>
-                        Previously, I've worked at {''}
-                        <a href="https://www.capitalone.com/">
-                           Capital One
-                        </a>{''}, <a href="https://www.joveo.com/">
+                        Before that I've worked at {''}
+                        <a href="https://www.joveo.com/">
                            Joveo
                         </a>{''} and {''}
                         <a href="https://www.here.com/">
                            HERE Technologies
                         </a>{''}, where I have independently
-                        initiated and driven several research & development projects in Backend Engineering & Data Sciences.
+                        initiated and driven several research & development projects in Data Sciences & Backend Engineering.
                      </div>
                      <div>
                         As a Deep Learning enthusiast, I try to work out an keep a hang of what’s going on
                         in the flourishing world of AI. I <Link href={`notes`}>
                            <a>write</a>
-                        </Link>  about my experiences with technology in this space.
+                        </Link>  about my experiences with tech in this space.
 
                      </div>
                      <div>
                         Prior to this, I completed my Bachelors in Electronics & Electrical Engineering at <a href="https://www.bits-pilani.ac.in/">
-                           Birla Institute of Technology & Science Pilani
+                           BITS Pilani
                         </a>{''}.
                      </div>
                      <div>
@@ -76,7 +75,7 @@ const About = () => {
                      <div>
                         {/* <div className={styles.item}>Natural Language Processing</div> */}
                         <div className={styles.item}>
-                           Computer Vision
+                           Large Language Models
                         </div>
                         <div className={styles.item}>
                            MLOps
@@ -108,7 +107,7 @@ const About = () => {
                   </div>
                   <div className={styles.info}>
                      <div>
-                        All views contained herein are my own and do not represent the views of my employers or any affiliate.
+                        All views contained herein are my own and do not represent the views of my employers or any affiliate. Last updated - Dec 2023.
                      </div>
                   </div>
                </div>
